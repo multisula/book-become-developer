@@ -21,6 +21,12 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '3.0.2'
+
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.thymleaf.extras:thymleaf-extras-springsecurity6'
+    testImplementation 'org.springframework.security:spring-security-test'
+
 
 }
 
